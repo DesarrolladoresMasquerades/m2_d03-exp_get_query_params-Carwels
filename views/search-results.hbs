@@ -1,0 +1,15 @@
+<div>
+    <h1>This is what you sent me..</h1>
+    <p>{{searchString}}</p>
+    <p>{{searchDate}}</p>
+
+    <h3>
+        Here are your search-results
+    </h3>
+
+    <ul>
+        {{#each searchResult}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+</div>
